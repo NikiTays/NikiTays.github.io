@@ -1,0 +1,382 @@
+@font-face {
+    font-family: "ProductSansThin"; 
+    src: url("ProductSansThin.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+a {
+    text-decoration:none;
+    color: white !important;
+    }
+
+html, body {
+    margin:0;
+    padding:0;
+    background-color: black;
+    font-size:15px;
+    font-family: "ProductSansThin";
+    font-weight: 900;
+    
+}
+
+
+
+
+
+
+
+.panel {
+    width: 98%;
+
+    padding: 1%;
+    border: 1px solid silver;
+    color: rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 0.25;
+    background-color: white;
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .panel {
+        width: 1100px;
+        margin: 10px auto 0px auto;
+        padding: 5px 1% 5px 1%;
+
+    }
+   
+    }
+
+.block {
+    width: 98%;
+    padding: 1%;
+    outline: 1px solid white;
+    outline-offset: -1px; 
+    color:white;
+
+    text-align: center;
+    line-height: 1;
+    background-color: black;
+
+}
+
+.block input {
+    width: 44%;
+    margin: 1%;
+    padding: 1%;
+    outline: 1px solid white;
+    outline-offset: -1px; 
+    color:rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    background-color: white;
+    height: 25px;
+    line-height:25px;
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .block {
+        width: 1100px;
+        margin: 10px auto 0px auto;
+        padding: 10px 1% 10px 1%;
+    
+    }
+
+    }
+
+.btn {
+    width: 98%;
+
+    padding: 1%;
+    border: 1px solid silver;
+    color: rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    background-color: white;
+    height: 25px;
+    line-height:25px;
+    user-select: none;
+    transition: all 250ms ease;
+
+}
+
+.btn:hover {
+
+
+   border: 1px solid rgb(56, 56, 56);
+
+}
+
+.btn:active     {  
+
+
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    
+  
+      }
+
+      #btnShow {
+        width: 96%;
+        margin: 1%;
+        padding: 1%;
+        outline: 2px solid white;
+        outline-offset: -2px; 
+        color: white;
+        text-align: center;
+        line-height: 1;
+        background-color: black;
+        height: 25px;
+        line-height:25px;
+        user-select: none;
+        transition: all 250ms ease;
+    
+    }
+    
+    
+    #btnShow:active     {  
+    
+    
+        -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+        
+      
+          }
+
+
+          #btnHide {
+            width: 96%;
+            margin: 1%;
+            padding: 1%;
+            outline: 2px solid white;
+            outline-offset: -2px; 
+            color: white;
+            text-align: center;
+            line-height: 1;
+            background-color: black;
+            height: 25px;
+            line-height:25px;
+            user-select: none;
+            transition: all 250ms ease;
+      
+        
+        }
+        
+    
+        
+        #btnHide:active     {  
+        
+        
+            -webkit-transform: scale(0.95);
+            -ms-transform: scale(0.95);
+            transform: scale(0.95);
+            
+          
+              }
+
+
+.btnimg {
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid silver;
+    color: rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    background-color: white;
+    user-select: none;
+    transition: all 250ms ease;
+
+}
+
+.btnimg:hover {
+
+
+    border: 1px solid rgb(56, 56, 56);
+ 
+ }
+
+
+
+.btnimg img {
+    width: 25%;
+    transition: all 100ms ease;
+  
+
+}
+
+.btnimg img:active     {  
+
+
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    
+  
+      }
+ 
+       
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid silver;
+    color:rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    bottom: 0;
+   
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .footer {
+        width: 1100px;
+        margin: 10px auto 10px auto;
+        padding: 5px 1% 5px 1%;
+        
+        
+        
+    
+    }
+ 
+    }
+
+
+   .fourbtn {
+    width: 19%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid silver;
+    color: rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    background-color: white;
+    display:inline-block;
+    height: 25px;
+    line-height:25px;
+    user-select: none;
+    transition: all 250ms ease;
+
+  
+}
+
+
+
+
+
+
+.fourbtn:hover {
+
+
+   border: 1px solid rgb(56, 56, 56);
+
+}
+
+.fourbtn:active     {  
+
+
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    
+  
+      }
+
+
+.twobtn {
+    width: 44%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid silver;
+    color: rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    background-color: white;
+    display:inline-block;
+    height: 25px;
+    line-height:25px;
+    user-select: none;
+    transition: all 250ms ease;
+  
+}
+
+
+  
+
+
+
+
+
+
+
+.twobtn:hover {
+
+
+   border: 1px solid rgb(56, 56, 56);
+
+}
+
+.twobtn:active     {  
+
+
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    
+  
+      }
+
+.twotext {
+    width: 44%;
+    margin: 1%;
+    padding: 1%;
+    color: rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    background-color: white;
+    display:inline-block;
+    height: 10px;
+    line-height:10px;
+    user-select: none;
+  
+}
+
+.onebigtext {
+    width: 44%;
+    margin: 1%;
+    padding: 1%;
+    color: rgb(99, 99, 99);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    background-color: white;
+    display:inline-block;
+    height: 100px;
+    line-height:100px;
+    user-select: none;
+    font-size:80px;
+  
+}
